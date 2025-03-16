@@ -11,7 +11,7 @@ public class GiaoDichNha extends GiaoDich {
 		diaChi = _diaChi;
 	}
 
-	double ThanhTien() {
+	double thanhTien() {
 		if (loaiNha == 1) {
 			return dienTich * donGia;
 		}else if(loaiNha == 2) {

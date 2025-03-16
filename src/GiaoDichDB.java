@@ -11,10 +11,10 @@ public class GiaoDichDB {
 	static void addGDNha(GiaoDichNha nha) {
 		lstGiaoDichNha.add(nha);
 	}
-	ArrayList<GiaoDichDat> getDat() {
+	static ArrayList<GiaoDichDat> getDat() {
 		return lstGiaoDichDat;
 	}
-	ArrayList<GiaoDichNha> getNha() {
+	static ArrayList<GiaoDichNha> getNha() {
 		return lstGiaoDichNha;
 	}
 	

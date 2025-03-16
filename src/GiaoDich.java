@@ -20,5 +20,8 @@ public class GiaoDich {
 		}
 	}
 	
+	double thanhTien() {
+		return 0;
+	}
 
 }

@@ -6,7 +6,7 @@ public class GiaoDichDat extends GiaoDich{
 		super(_maGiaoDich, _donGia, _dienTich, _ngayGiaoDich);
 		loaiDat = _loaiDat;
 	}
-	double ThanhTien() {
+	double thanhTien() {
 		if("B".equalsIgnoreCase(loaiDat) || "C".equalsIgnoreCase(loaiDat)) {
 			return dienTich * donGia;
 		}else if("A".equalsIgnoreCase(loaiDat)) {
